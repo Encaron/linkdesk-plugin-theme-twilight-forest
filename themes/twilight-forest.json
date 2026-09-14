@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../../public/schemas/theme.schema.json",
+  "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "twilight-forest",
   "name": "暮色森林",
   "type": "dark",

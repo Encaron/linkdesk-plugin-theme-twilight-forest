@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- theme-twilight-forest 身份图「暮色森林」：林夜深块 + 上方四道色带（四 colorway）+ 前景三株针叶树
+       意象 = 该主题是一套暗色合集（暮光金/青澜/暮紫/翠微 四 colorway），森林色系
+       ——四道色带按色way 序排开，树影压在下方，读作「天边四色，林中一景」
+       家族：40×40 圆角方载体 + 135° 双档渐变 + 白玻璃罩 + 发丝光边（Type-2 彩色身份图） -->
+  <defs>
+    <linearGradient id="tfBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D2E22"/>
+      <stop offset="1" stop-color="#080E0A"/>
+    </linearGradient>
+    <linearGradient id="tfSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <path id="tfFir" d="M0 0 L3.2 5.2 L1.7 5.2 L4.5 10.6 L2.2 10.6 L5.6 16.2 L-5.6 16.2 L-2.2 10.6 L-4.5 10.6 L-1.7 5.2 L-3.2 5.2 Z"/>
+  </defs>
+
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#tfBg)"/>
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#tfSheen)"/>
+  <rect x="4.5" y="4.5" width="39" height="39" rx="9.5" fill="none" stroke="#8FD8A0" stroke-opacity="0.25"/>
+
+  <!-- 四 colorway 色带（暮光金 / 青澜 / 暮紫 / 翠微），取各 way 的 icon-active 色 -->
+  <g>
+    <rect x="12" y="11" width="4.8" height="4.6" rx="2.3" fill="#C9A43A"/>
+    <rect x="18.4" y="11" width="4.8" height="4.6" rx="2.3" fill="#14B8A6"/>
+    <rect x="24.8" y="11" width="4.8" height="4.6" rx="2.3" fill="#8B6CF0"/>
+    <rect x="31.2" y="11" width="4.8" height="4.6" rx="2.3" fill="#1FC035"/>
+  </g>
+
+  <!-- 针叶树三株（近黑，底边齐 40） -->
+  <g fill="#050B07">
+    <use href="#tfFir" transform="translate(13 25.42) scale(0.9)"/>
+    <use href="#tfFir" transform="translate(24 21.37) scale(1.15)"/>
+    <use href="#tfFir" transform="translate(35 24.61) scale(0.95)"/>
+  </g>
+</svg>

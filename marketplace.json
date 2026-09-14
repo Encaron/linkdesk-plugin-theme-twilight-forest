@@ -1,20 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T17:31:37.203Z",
+  "updatedAt": "2026-09-14T17:50:28.825Z",
   "plugins": [
     {
       "id": "theme-twilight-forest",
       "name": "暮色森林",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "暗色主题合集——青澜/暮紫/翠微，森林色系",
       "author": {
         "name": "Encaron"
       },
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.3/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.3/theme-twilight-forest.linkdesk-plugin",
-      "size": 4175,
-      "publishedAt": "2026-09-14T17:31:37.203Z",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.4/resources/icon.svg",
+      "iconSource": "url",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.4/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.4/theme-twilight-forest.linkdesk-plugin",
+      "size": 5789,
+      "publishedAt": "2026-09-14T17:50:28.825Z",
       "versions": [
+        {
+          "version": "1.0.4",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.4/theme-twilight-forest.linkdesk-plugin",
+          "publishedAt": "2026-09-14T17:50:28.825Z",
+          "changelog": "- 新增市场身份图 `resources/icon.svg`（Type-2 彩色身份图，E6#68a）——此前 `plugin.json` 没有 `icon` 字段，市场里显的是**统一默认彩块**\n- 意象：天边四道色带（暮光金/青澜/暮紫/翠微 四 colorway）+ 前方三株针叶树影\n- 形态照 [06-图标.md](https://github.com/Encaron/linkdesk/blob/electron/docs/02-Electron%E6%9E%B6%E6%9E%84/E6_%E6%8F%92%E4%BB%B6%E7%94%9F%E6%80%81%E4%B8%8E%E5%8F%91%E5%B8%83/03-%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA/06-%E5%9B%BE%E6%A0%87.md)：SVG / 透明底 / 48×48 正方形 viewBox / 零 `<text>`（不绑字体）"
+        },
         {
           "version": "1.0.3",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.3/theme-twilight-forest.linkdesk-plugin",

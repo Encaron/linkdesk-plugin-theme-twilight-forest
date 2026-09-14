@@ -1,20 +1,26 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T02:37:39.991Z",
+  "updatedAt": "2026-09-14T17:31:37.203Z",
   "plugins": [
     {
       "id": "theme-twilight-forest",
       "name": "暮色森林",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "暗色主题合集——青澜/暮紫/翠微，森林色系",
       "author": {
         "name": "Encaron"
       },
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.2/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.2/theme-twilight-forest.linkdesk-plugin",
-      "size": 3097,
-      "publishedAt": "2026-09-14T02:37:39.991Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.3/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.3/theme-twilight-forest.linkdesk-plugin",
+      "size": 4175,
+      "publishedAt": "2026-09-14T17:31:37.203Z",
       "versions": [
+        {
+          "version": "1.0.3",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.3/theme-twilight-forest.linkdesk-plugin",
+          "publishedAt": "2026-09-14T17:31:37.203Z",
+          "changelog": "- 配方 `$schema` 改**文档唯一认可的写法**（`./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json`，相对工程根）——原来用的是已作废的越界相对路径（`../..` 一路指到壳仓 `public/schemas/`，脱离壳仓后编辑器的补全与校验全失效）\n- 分发件随包带 **MIT 许可证**（`LICENSE`）——MIT 要求副本里带版权声明，而 zip 才是用户真正拿到的那份\n- 新增 `AGENTS.md`：在这个仓里单开 AI 干活时的进场说明（这只插件是什么 / 规矩在哪 / 命令怎么敲）"
+        },
         {
           "version": "1.0.2",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.2/theme-twilight-forest.linkdesk-plugin",

@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "updatedAt": "2026-09-14T02:37:39.991Z",
+  "plugins": [
+    {
+      "id": "theme-twilight-forest",
+      "name": "暮色森林",
+      "version": "1.0.2",
+      "description": "暗色主题合集——青澜/暮紫/翠微，森林色系",
+      "author": {
+        "name": "Encaron"
+      },
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.2/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.2/theme-twilight-forest.linkdesk-plugin",
+      "size": 3097,
+      "publishedAt": "2026-09-14T02:37:39.991Z",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.2/theme-twilight-forest.linkdesk-plugin",
+          "publishedAt": "2026-09-14T02:37:39.991Z",
+          "changelog": "- 源码迁入独立仓（E6#99，L7 第 7.2 轮）——从壳仓 `Encaron/linkdesk` 抽出本插件子树，历史全保（hash 变）\n- 随包 `plugin.json` 显式声明 `pluginId`（E6#98g）：插件身份不再靠目录名兜底，独立仓构建出的包名与身份稳定\n- `$schema` 改指本仓 `node_modules/@linkdesk/plugin-sdk`（脱离壳仓后原相对路径指到仓外，编辑器补全/校验会失效）"
+        }
+      ]
+    }
+  ]
+}

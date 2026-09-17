@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T17:50:28.825Z",
+  "updatedAt": "2026-09-17T16:21:52.627Z",
   "plugins": [
     {
       "id": "theme-twilight-forest",
       "name": "暮色森林",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "暗色主题合集——青澜/暮紫/翠微，森林色系",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.4/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.5/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.4/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.4/theme-twilight-forest.linkdesk-plugin",
-      "size": 5789,
-      "publishedAt": "2026-09-14T17:50:28.825Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.5/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.5/theme-twilight-forest.linkdesk-plugin",
+      "size": 6420,
+      "publishedAt": "2026-09-17T16:21:52.627Z",
       "versions": [
+        {
+          "version": "1.0.5",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.5/theme-twilight-forest.linkdesk-plugin",
+          "publishedAt": "2026-09-17T16:21:52.627Z",
+          "changelog": "- **E6#111n-6 外观族 id 带归属**（本轴「非样式命名空间归一化」清账 · 主题族）——本仓名额全在下面；**词干一字未动**，只加了「<插件 id>.」归属前缀：\n- 配方 id `twilight-forest` → `theme-twilight-forest.twilight-forest`\n- 配色 id `sunset` → `theme-twilight-forest.sunset`\n- 配色 id `teal` → `theme-twilight-forest.teal`\n- 配色 id `twilight-purple` → `theme-twilight-forest.twilight-purple`\n- 配色 id `verdant` → `theme-twilight-forest.verdant`\n- 🔴 **显示名（`label` / `name`）一字未动** —— 设置页看到的主题名与配色名**没有变化**；主题的颜色 / 玻璃 / 字体等一切外观内容也**一字未动**（这是「改名 ≠ 改样子」的机械保证）。\n- **旧 id 不会被丢**：壳侧读时归一（`normalizeRecipeId` / `normalizeColorwayId` / `normalizeIconThemeId`，**解析器门控**＝新名在册且旧名不在册才映）＋ 配置迁移**版本 12** 把盘上的旧值改写掉；用户已选的主题 / 配色 / 图标主题在升级后**照旧生效**（含「插件比壳晚到」的顺序，两问门控保证任一时刻都只有一种解释成立）。"
+        },
         {
           "version": "1.0.4",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.4/theme-twilight-forest.linkdesk-plugin",

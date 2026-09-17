@@ -1,5 +1,16 @@
 # 更新日志
 
+## v1.0.5（2026-09-17）
+
+- **E6#111n-6 外观族 id 带归属**（本轴「非样式命名空间归一化」清账 · 主题族）——本仓名额全在下面；**词干一字未动**，只加了「<插件 id>.」归属前缀：
+- 配方 id `twilight-forest` → `theme-twilight-forest.twilight-forest`
+- 配色 id `sunset` → `theme-twilight-forest.sunset`
+- 配色 id `teal` → `theme-twilight-forest.teal`
+- 配色 id `twilight-purple` → `theme-twilight-forest.twilight-purple`
+- 配色 id `verdant` → `theme-twilight-forest.verdant`
+- 🔴 **显示名（`label` / `name`）一字未动** —— 设置页看到的主题名与配色名**没有变化**；主题的颜色 / 玻璃 / 字体等一切外观内容也**一字未动**（这是「改名 ≠ 改样子」的机械保证）。
+- **旧 id 不会被丢**：壳侧读时归一（`normalizeRecipeId` / `normalizeColorwayId` / `normalizeIconThemeId`，**解析器门控**＝新名在册且旧名不在册才映）＋ 配置迁移**版本 12** 把盘上的旧值改写掉；用户已选的主题 / 配色 / 图标主题在升级后**照旧生效**（含「插件比壳晚到」的顺序，两问门控保证任一时刻都只有一种解释成立）。
+
 ## v1.0.4（2026-09-15）
 
 - 新增市场身份图 `resources/icon.svg`（Type-2 彩色身份图，E6#68a）——此前 `plugin.json` 没有 `icon` 字段，市场里显的是**统一默认彩块**

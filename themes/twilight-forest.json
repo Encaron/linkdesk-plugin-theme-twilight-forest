@@ -1,11 +1,11 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
-  "id": "twilight-forest",
+  "id": "theme-twilight-forest.twilight-forest",
   "name": "暮色森林",
   "type": "dark",
   "colorways": [
     {
-      "id": "sunset",
+      "id": "theme-twilight-forest.sunset",
       "name": "暮光 Sunset",
       "colors": {
         "bg-window": "#2B2A24",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "id": "teal",
+      "id": "theme-twilight-forest.teal",
       "name": "青澜 Teal",
       "colors": {
         "bg-window": "#1C2428",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "id": "twilight-purple",
+      "id": "theme-twilight-forest.twilight-purple",
       "name": "暮紫 Twilight Purple",
       "colors": {
         "bg-window": "#1E1B2E",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "verdant",
+      "id": "theme-twilight-forest.verdant",
       "name": "翠微 Verdant",
       "colors": {
         "bg-window": "#1A241C",

@@ -1,7 +1,7 @@
 # 暮色森林（theme-twilight-forest）——LinkDesk 插件仓
 
 > **本文件是给在这个仓里干活的 AI 看的**（Claude Code / Codex / Cursor / …）。人看 `README.md`。
-> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-twilight-forest`）。当前版本 `1.0.5`。
+> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-twilight-forest`）。当前版本 `1.0.6`。
 
 ## 1. 这是什么
 
@@ -29,7 +29,6 @@
 
 **本仓没有 `src/`** —— 它是「数据插件」：能力全在 `plugin.json` 的声明 ＋ 数据文件里。
 
-**本仓没有 `i18n/`** —— 文案 key 就是中文原文，英文由语言包插件（`lang-defaults`）提供。
 
 - 本仓 author 是**仓主本人**（不是「官方」），是「第三方作者也能做主题插件」的样本。
 - 本仓**没有 `resources/`**、`plugin.json` 里**没有 `icon`**；配方顶层键用 `type`。

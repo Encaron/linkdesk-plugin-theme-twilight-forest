@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T20:50:47.982Z",
+  "updatedAt": "2026-09-30T22:00:36.980Z",
   "plugins": [
     {
       "id": "theme-twilight-forest",
       "name": "暮色森林",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "暗色主题合集——青澜/暮紫/翠微，森林色系",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.7/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.8/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.7/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.7/theme-twilight-forest.linkdesk-plugin",
-      "size": 7676,
-      "publishedAt": "2026-09-30T20:50:47.982Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-twilight-forest/v1.0.8/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.8/theme-twilight-forest.linkdesk-plugin",
+      "size": 7111,
+      "publishedAt": "2026-09-30T22:00:36.980Z",
       "versions": [
+        {
+          "version": "1.0.8",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.8/theme-twilight-forest.linkdesk-plugin",
+          "publishedAt": "2026-09-30T22:00:36.980Z",
+          "changelog": "- **安装包瘦身**：包内更新日志只带最近 5 版（更早的更新记录仍在本插件仓库里）——由 SDK 自动施加，用户无需任何操作。"
+        },
         {
           "version": "1.0.7",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.7/theme-twilight-forest.linkdesk-plugin",
@@ -44,14 +50,12 @@
         {
           "version": "1.0.3",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.3/theme-twilight-forest.linkdesk-plugin",
-          "publishedAt": "2026-09-14T17:31:37.203Z",
-          "changelog": "- 配方 `$schema` 改**文档唯一认可的写法**（`./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json`，相对工程根）——原来用的是已作废的越界相对路径（`../..` 一路指到壳仓 `public/schemas/`，脱离壳仓后编辑器的补全与校验全失效）\n- 分发件随包带 **MIT 许可证**（`LICENSE`）——MIT 要求副本里带版权声明，而 zip 才是用户真正拿到的那份\n- 新增 `AGENTS.md`：在这个仓里单开 AI 干活时的进场说明（这只插件是什么 / 规矩在哪 / 命令怎么敲）"
+          "publishedAt": "2026-09-14T17:31:37.203Z"
         },
         {
           "version": "1.0.2",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-twilight-forest/releases/download/v1.0.2/theme-twilight-forest.linkdesk-plugin",
-          "publishedAt": "2026-09-14T02:37:39.991Z",
-          "changelog": "- 源码迁入独立仓（E6#99，L7 第 7.2 轮）——从壳仓 `Encaron/linkdesk` 抽出本插件子树，历史全保（hash 变）\n- 随包 `plugin.json` 显式声明 `pluginId`（E6#98g）：插件身份不再靠目录名兜底，独立仓构建出的包名与身份稳定\n- `$schema` 改指本仓 `node_modules/@linkdesk/plugin-sdk`（脱离壳仓后原相对路径指到仓外，编辑器补全/校验会失效）"
+          "publishedAt": "2026-09-14T02:37:39.991Z"
         }
       ]
     }

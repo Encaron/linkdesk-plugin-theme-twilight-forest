@@ -19,7 +19,7 @@
   <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#tfSheen)"/>
   <rect x="4.5" y="4.5" width="39" height="39" rx="9.5" fill="none" stroke="#8FD8A0" stroke-opacity="0.25"/>
 
-  <!-- 四 colorway 色带（暮光金 / 青澜 / 暮紫 / 翠微），取各 way 的 icon-active 色 -->
+  <!-- 四 colorway 色带（暮光金 / 青澜 / 暮紫 / 翠微）——色值为本文件硬编码字面量（原注「取各 way 的 icon-active 色」；该键为壳不消费的死键，已随 v1.0.9 删除，此处色值不受影响） -->
   <g>
     <rect x="12" y="11" width="4.8" height="4.6" rx="2.3" fill="#C9A43A"/>
     <rect x="18.4" y="11" width="4.8" height="4.6" rx="2.3" fill="#14B8A6"/>
